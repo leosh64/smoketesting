@@ -1,6 +1,6 @@
 # Smoke Testing
 
-This repository contains an attempt implement smoke-testing of a CLI application. The application (`xtractor`) itself is simple:
+This repository contains an attempt to implement smoke-testing of a CLI application. The application (`xtractor`) itself is simple:
 Given input data in the form `TIMESTAMP, VALUE` and number of outputs `X`, it extracts the `TIMESTAMP`s of the `X` input data entries
 with greatest `VALUE`. Input data could be supplied via file or via `stdin`.
 
@@ -19,7 +19,7 @@ The code was tested on the following system:
 * `g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0`
 * `bazel 4.1.0`  (it's highly recommended to use bazel!)
 
-## The bazel way
+## The Bazel way
 
 ### Build
 
